@@ -15,6 +15,7 @@ except ModuleNotFoundError:
     os.system("pip install colorama")
     os.system("pip install fade")
     os.system("pip install keyboard")
+    os.system("pip install webbrowser")
 
 text = fade.purplepink("""
 ██╗    ██╗███████╗██████╗ ██╗  ██╗ ██████╗  ██████╗ ██╗  ██╗    ███████╗██████╗  █████╗ ███╗   ███╗
@@ -44,4 +45,3 @@ while True:
     print(f"{Fore.RED}[X] Sent Message: {Fore.MAGENTA}{message} [X]")
     if keyboard.is_pressed(button_to_stop):
         quit()
-    
